@@ -1,0 +1,22 @@
+$colors: (
+  nav: #640fc5,
+  button1: #0e6cff,
+  button2: #ff8700,
+  button3: #4caf50,
+);
+@each $allsectioncolors, $color in $colors {
+  .color-#{$allsectioncolors} {
+    background-color: $color;
+  }
+}
+
+li,
+p {
+  color: $testo;
+}
+
+main {
+  background-image: url(https://www.kanaloa.it/wp-content/uploads/2019/02/kanaloa-viaggi-in-libert%C3%A0-islanda-partenza-avventurosa-08.jpg);
+  height: 750px;
+  background-position: center;
+}

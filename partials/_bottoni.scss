@@ -1,0 +1,11 @@
+$color-map: (
+  color1: #0e6cff,
+  color2: #ff8700,
+  color3: #4caf50,
+);
+
+@each $numercolor, $value in $color-map {
+  .colorbutton-#{$numercolor} {
+    background-color: $value;
+  }
+}

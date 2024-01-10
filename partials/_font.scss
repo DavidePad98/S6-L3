@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$sizes-font: (
+  xs: 400,
+  sm: 600,
+  md: 700,
+  lg: 800,
+  xl: 900,
+);
+
+@each $bigfont, $value in $sizes-font {
+  .font-#{$bigfont} {
+    font-size: $value;
+  }
+}

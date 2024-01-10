@@ -1,0 +1,44 @@
+$spacingspad: (
+  xs: 0.5rem,
+  sm: 1rem,
+  md: 1.5rem,
+  lg: 2rem,
+  xl: 3rem,
+  xxl: 4rem,
+);
+
+@each $breakpoint, $value in $spacingspad {
+  .padding-#{$breakpoint} {
+    padding: $value;
+  }
+}
+
+$margins: (
+  xs: 0.5em,
+  sm: 1em,
+  md: 1.5em,
+  lg: 2em,
+  xl: 3em,
+  xxl: 4em,
+);
+
+@each $breakpoint, $value in $margins {
+  .margin-#{$breakpoint} {
+    padding: $value;
+  }
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul {
+  li {
+    img {
+      width: 50px;
+    }
+    padding: 0 10px;
+  }
+}

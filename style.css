@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+.colorbutton-color1 {
+  background-color: #0e6cff;
+}
+
+.colorbutton-color2 {
+  background-color: #ff8700;
+}
+
+.colorbutton-color3 {
+  background-color: #4caf50;
+}
+
+.color-nav {
+  background-color: #640fc5;
+}
+
+.color-button1 {
+  background-color: #0e6cff;
+}
+
+.color-button2 {
+  background-color: #ff8700;
+}
+
+.color-button3 {
+  background-color: #4caf50;
+}
+
+li,
+p {
+  color: #f4f4f4;
+}
+
+main {
+  background-image: url(https://www.kanaloa.it/wp-content/uploads/2019/02/kanaloa-viaggi-in-libert%C3%A0-islanda-partenza-avventurosa-08.jpg);
+  height: 750px;
+  background-position: center;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-xs {
+  font-size: 400;
+}
+
+.font-sm {
+  font-size: 600;
+}
+
+.font-md {
+  font-size: 700;
+}
+
+.font-lg {
+  font-size: 800;
+}
+
+.font-xl {
+  font-size: 900;
+}
+
+h1 {
+  color: #fefefe;
+  text-align: center;
+  font-size: 6em;
+  padding-top: 1em;
+}
+
+main {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.7);
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+button {
+  padding: 0 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: #fefefe;
+}
+
+.padding-xs {
+  padding: 0.5rem;
+}
+
+.padding-sm {
+  padding: 1rem;
+}
+
+.padding-md {
+  padding: 1.5rem;
+}
+
+.padding-lg {
+  padding: 2rem;
+}
+
+.padding-xl {
+  padding: 3rem;
+}
+
+.padding-xxl {
+  padding: 4rem;
+}
+
+.margin-xs {
+  padding: 0.5em;
+}
+
+.margin-sm {
+  padding: 1em;
+}
+
+.margin-md {
+  padding: 1.5em;
+}
+
+.margin-lg {
+  padding: 2em;
+}
+
+.margin-xl {
+  padding: 3em;
+}
+
+.margin-xxl {
+  padding: 4em;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+ul li {
+  padding: 0 10px;
+}
+ul li img {
+  width: 50px;
+}/*# sourceMappingURL=style.css.map */
